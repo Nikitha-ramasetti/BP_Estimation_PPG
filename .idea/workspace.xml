@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acfb03a1-3344-4d5e-a222-afbff9dc0cd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Optimization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/cnn-lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/cnn-lstm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/segment_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/segment_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/visualize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/data_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/data_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_preprocessing/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_preprocessing/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_preprocessing/preprocess_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_preprocessing/preprocess_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/single_rec/ABP.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/signals/ABP.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/single_rec/PPG.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/signals/PPG.png" afterDir="false" />
-    </list>
+    <list default="true" id="acfb03a1-3344-4d5e-a222-afbff9dc0cd8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,59 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/Optimization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/cnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/cnn-lstm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/segment_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,11 +35,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1454" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="1438" />
-    <option name="height" value="857" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -118,11 +53,6 @@
             <path>
               <item name="BP_Estimation" type="b2602c69:ProjectViewProjectNode" />
               <item name="BP_Estimation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BP_Estimation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BP_Estimation" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,7 +158,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1454" y="23" width="1438" height="857" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23853211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -241,7 +170,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43398693" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43398693" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -286,9 +215,6 @@
     <entry file="file://$PROJECT_DIR$/images/signals/ABP.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/signals/time_series_data.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/analyse/data_analyse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -315,6 +241,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/cnn-lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/segment_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -332,19 +272,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/cnn-lstm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/data_visualize/dbp.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/data_visualize/hr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/data_visualize/sbp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/preproces/flat_line.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/preproces/flat_peaks.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/preproces/noisy_sig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/preproces/sig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/results/architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/results/loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/results/ref_est_dbp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/results/ref_est_hr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/results/ref_est_sbp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/signals/time_series_data.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
