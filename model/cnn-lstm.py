@@ -1,5 +1,5 @@
 
-from Model.Optimization import*
+from model.Optimization import*
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import MinMaxScaler
@@ -11,8 +11,8 @@ import torch.optim as optim
 from torch.utils.data import TensorDataset
 from torch.utils.data import DataLoader
 
-#load saved data numpy files
-ppg = np.load("data.npy")
+#load saved model numpy files
+ppg = np.load("model.npy")
 target = np.load("label.npy")
 
 

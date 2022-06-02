@@ -3,12 +3,13 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
 from torch.utils.data import Subset, DataLoader
+from model.Optimization import*
 from torchvision import transforms, utils
 
 
 
-#load saved data numpy files
-ppg = np.load("data.npy")
+#load saved model numpy files
+ppg = np.load("model.npy")
 target = np.load("label.npy")
 
 
@@ -119,7 +120,7 @@ print(model)
 # ========================================
 
 
-#Model Parameters
+#model Parameters
 batch_size = 32
 n_epochs = 2
 learning_rate = 0.001
@@ -129,7 +130,7 @@ criterion = nn.MSELoss(reduction='mean')
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
 
-# Train Model
+# Train model
 loss_stats = {
     'train': [],
     "val": []
@@ -175,7 +176,7 @@ plt.figure(figsize=(15,8))
 sns.lineplot(data=train_val_loss_df, x = "epochs", y="value", hue="variable").set_title('Train-Val Loss/Epoch')
 
 
-# test Model
+# test model
 y_pred_list = []
 with torch.no_grad():
     model.eval()

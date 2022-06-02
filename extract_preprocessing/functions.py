@@ -80,7 +80,7 @@ def remove_flat_lines(arr_2d, repeat_val):
     """
     returns id of windows with flat lines from the signal. Flat lines are detected based on whether a \
     single value exceeds threshold repeat_val specified in the argument. Higher the repeat_val less, \
-    less will be occurence of such data and so more data will be returned
+    less will be occurence of such model and so more model will be returned
     """
     idx = []
     for k, i in enumerate(arr_2d):

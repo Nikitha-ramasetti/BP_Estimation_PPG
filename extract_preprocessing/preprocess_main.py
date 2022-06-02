@@ -47,7 +47,7 @@ for record in records[0:10]:#records[2:8]:
             print("reading numerics file")
             signals_n, fields_n = wfdb.rdsamp(temp_path_n, pn_dir=pn_dir_path, channel_names=channel_names)
         except:
-            print("record {} doesn't have numerics data present".format(record))
+            print("record {} doesn't have numerics model present".format(record))
 
         try:
             print("reading waveform files")
@@ -57,7 +57,7 @@ for record in records[0:10]:#records[2:8]:
             signals, fields = wfdb.rdsamp(temp_path, pn_dir=pn_dir_path,
                                           channel_names=waveform_signals)  # ,sampfrom=0, sampto=100000)
         except:
-            print("record {} doesn't have waveform data present".format(record))
+            print("record {} doesn't have waveform model present".format(record))
 
         if fields_n and fields:
             numerics_upsampled = get_numerics_upsampled(signals, signals_n, fields, fields_n, numerics_signal)

@@ -8,7 +8,7 @@ from IPython.display import display
 import matplotlib.pyplot as plt
 
 
-#analyzing data by extracting a single patient record
+#analyzing model by extracting a single patient record
 signals, fields = wfdb.rdsamp('mimic3wdb/30/3000063/3000063_0006',
                               pn_dir='mimic3wdb/30/3000063',
                                      channel_names = ["PLETH", "ABP"]) #, sampfrom=0, sampto=7500)

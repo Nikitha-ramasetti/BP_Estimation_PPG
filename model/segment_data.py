@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from skimage.util import view_as_windows
 
 
-rootdir = '/Users/........../data/sample'
+rootdir = '/Users/........../model/sample'
 
 
 data_list = []
@@ -15,7 +15,7 @@ for subdir, dirs, files in os.walk(rootdir):
         print(os.path.join(subdir, file))
         data = np.load(os.path.join(subdir, file), allow_pickle=True)
         ppg = view_as_windows(data[:, 4], (125*10), (125*10))
-        #hr = np.mean(view_as_windows(data[:, 0], (125*15), (125*15)), axis=1)
+        #hr = np.mean(view_as_windows(model[:, 0], (125*15), (125*15)), axis=1)
         all_labels = np.mean(np.squeeze(view_as_windows(data[:, 0:3], (125*10, 3), (125*10))), axis=1)
         print(ppg.shape)
         print(all_labels.shape)
@@ -25,7 +25,7 @@ for subdir, dirs, files in os.walk(rootdir):
 data = np.concatenate(np.array(data_list, dtype=object), axis=0)
 label = np.concatenate(np.array(label_list, dtype=object), axis=0)
 
-np.save("data", data)
+np.save("model", data)
 np.save("label", label)
 
 
