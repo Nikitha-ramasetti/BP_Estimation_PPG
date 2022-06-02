@@ -1,5 +1,5 @@
-from Extract_Preprocessing.accessory_fun import *
-from Extract_Preprocessing.preprocessing_fun import *
+from extract_preprocessing.accessory_fun import *
+from extract_preprocessing.functions import *
 
 
 # ========================================
