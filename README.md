@@ -38,7 +38,7 @@ available database was used for extracting the data.\
 https://physionet.org/content/mimic3wdb/1.0/
 
 
-![](/Users/nikitha/Desktop/db.png)
+![](/Users/nikitha/desktop/db.png)
 
 
 
