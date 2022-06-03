@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="146">
-                <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <first_editor relative-caret-position="176">
+                <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,6 +68,11 @@
             <path>
               <item name="BP_Estimation" type="b2602c69:ProjectViewProjectNode" />
               <item name="BP_Estimation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BP_Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BP_Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,8 +321,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="146">
-            <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <first_editor relative-caret-position="176">
+            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           </first_editor>
           <second_editor />
         </state>
