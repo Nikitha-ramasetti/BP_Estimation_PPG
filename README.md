@@ -43,7 +43,7 @@ https://physionet.org/content/mimic3wdb/1.0/
 
 
 
-#### Setup
+### Setup
 
 Clone for Github repository, or can download the repository and unzip it.\
 https://github.com/Nikitha-ramasetti/BP_Estimation_PPG
@@ -53,7 +53,7 @@ git clone <repo_url>
 ```
 
 
-#### Installation
+### Installation
 To create a virtual environment using Python 3.9 as interpreter,
  the virtualenv package is required. 
  
@@ -79,5 +79,9 @@ command from the **requirements.txt** file.
 pip install -r requirements.txt
 ```
 
+
+### Author
+
+**Nikitha Ramasetti** <nikitha.shruthi@gmail.com>
 
 
