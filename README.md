@@ -9,7 +9,7 @@ diastolic blood pressure (DBP), systolic blood pressure (SBP), and heart rate (H
 
 
 ### Project
-Trainings are performed using PyTorch 1.10.2 and Python 3.9. 
+Trainings are performed using PyTorch 1.10.2 and Python 3.9 frameworks. 
 
 - **analyse/data_analyse.py** file consists of script to view the single patient record dataset and data analysis.
 
@@ -79,6 +79,4 @@ pip install -r requirements.txt
 ```
 
 
-
-```
 
